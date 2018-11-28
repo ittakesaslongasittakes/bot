@@ -1,0 +1,8 @@
+{
+  "presets": ["es2016"],
+  "plugins": [
+    "syntax-jsx",
+    ["transform-object-rest-spread"],
+    ["transform-react-jsx", { "pragma": "Snabbdom.createElement" }]
+  ]
+}

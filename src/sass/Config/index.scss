@@ -1,0 +1,27 @@
+@import "colors";
+body {
+  background: $dirt-white;
+}
+.plf-loader {
+  display: block !important;
+  height: 300px;
+  width: 800px;
+  z-index: 9999999999999999999999;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: #ffffffd4;
+  .inject {
+    display: block;
+    .triangle-wrapper {
+      width: 200px;
+      height: 200px;
+      .triangle {
+        stroke-width: 2px;
+        stroke: #000;
+        fill: transparent;
+      }
+    }
+
+  }
+}
